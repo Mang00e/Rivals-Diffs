@@ -3959,7 +3959,7 @@
           {
             "SkinItemID": "1025100",
             "SkinID": 100,
-            "SkinName": "青黄",
+            "SkinName": "青黄永随",
             "ResTable": {
               "AssetPathName": "/Game/Marvel/Characters/1025/1025001/1025001_AbilityResTable.1025001_AbilityResTable",
               "SubPathString": ""
@@ -4038,7 +4038,7 @@
           {
             "SkinItemID": "1025500",
             "SkinID": 500,
-            "SkinName": "双生舞伴",
+            "SkinName": "暗光明晦",
             "ResTable": {
               "AssetPathName": "/Game/Marvel/Characters/1025/1025001/1025001_AbilityResTable.1025001_AbilityResTable",
               "SubPathString": ""
@@ -4145,6 +4145,133 @@
                 "HeroStateAnimData": [
                   {
                     "AssetPathName": "/Game/Marvel/Characters/1025/1025001/AnimationDataAssets/1025001_10251_HeroStateAnimData.1025001_10251_HeroStateAnimData",
+                    "SubPathString": ""
+                  }
+                ],
+                "CustomNamedAnimData": [],
+                "SculptSoulAnimData": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                }
+              }
+            ],
+            "bCookSkinCue": true,
+            "Quality": "EItemQuality::WHITE",
+            "NiagaraColorCollectionInstance": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
+            "SkinItemID": "1025301",
+            "SkinID": 301,
+            "SkinName": "西西里往事",
+            "ResTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1025/1025001/1025001_AbilityResTable.1025001_AbilityResTable",
+              "SubPathString": ""
+            },
+            "EmotesResTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1025/1025001/1025001_EmoteResTable.1025001_EmoteResTable",
+              "SubPathString": ""
+            },
+            "SoundTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1025/1025001/1025001_SoundTable.1025001_SoundTable",
+              "SubPathString": ""
+            },
+            "VoiceTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1025/1025001/1025001_HeroVoice.1025001_HeroVoice",
+              "SubPathString": ""
+            },
+            "AeroSound": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SculptSpecs": [
+              {
+                "TypeTag": {
+                  "TagName": "Hero.DaggerCloak.Dagger"
+                },
+                "ChildActor": {
+                  "AssetPathName": "/Game/Marvel/Characters/1025/1025301/1025301_ChildBP.1025301_ChildBP_C",
+                  "SubPathString": ""
+                },
+                "VoiceItem": {
+                  "AssetPathName": "/Game/Marvel/Characters/1025/1025001/1025001_VoiceItem.1025001_VoiceItem",
+                  "SubPathString": ""
+                },
+                "GroundMotionAnimData": [
+                  {
+                    "AssetPathName": "/Game/Marvel/Characters/1025/1025001/AnimationDataAssets/1025001_SixDirGroundMotionData_N.1025001_SixDirGroundMotionData_N",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/Marvel/Characters/1025/1025001/AnimationDataAssets/1025001_SixDirGroundMotionData_C.1025001_SixDirGroundMotionData_C",
+                    "SubPathString": ""
+                  }
+                ],
+                "AeroLocomotionAnimData": [],
+                "HitReactAnimData": [
+                  {
+                    "AssetPathName": "/Game/Marvel/Characters/1025/1025001/AnimationDataAssets/1025001_10250_HitAnimData.1025001_10250_HitAnimData",
+                    "SubPathString": ""
+                  }
+                ],
+                "AimOffsetAnimData": [
+                  {
+                    "AssetPathName": "/Game/Marvel/Characters/1025/1025001/AnimationDataAssets/1025001_AimOffsetAnimData.1025001_AimOffsetAnimData",
+                    "SubPathString": ""
+                  }
+                ],
+                "HeroStateAnimData": [
+                  {
+                    "AssetPathName": "/Game/Marvel/Characters/1025/1025001/AnimationDataAssets/1025001_10250_HeroStateAnimData.1025001_10250_HeroStateAnimData",
+                    "SubPathString": ""
+                  }
+                ],
+                "CustomNamedAnimData": [],
+                "SculptSoulAnimData": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                }
+              },
+              {
+                "TypeTag": {
+                  "TagName": "Hero.DaggerCloak.Cloak"
+                },
+                "ChildActor": {
+                  "AssetPathName": "/Game/Marvel/Characters/1025/1025301/1025301_10251_ChildBP.1025301_10251_ChildBP_C",
+                  "SubPathString": ""
+                },
+                "VoiceItem": {
+                  "AssetPathName": "/Game/Marvel/Characters/1025/1025001/1025101_VoiceItem.1025101_VoiceItem",
+                  "SubPathString": ""
+                },
+                "GroundMotionAnimData": [
+                  {
+                    "AssetPathName": "/Game/Marvel/Characters/1025/1025001/AnimationDataAssets/1025001_10251_SixDirGroundMotionData_C.1025001_10251_SixDirGroundMotionData_C",
+                    "SubPathString": ""
+                  },
+                  {
+                    "AssetPathName": "/Game/Marvel/Characters/1025/1025001/AnimationDataAssets/1025001_10251_SixDirGroundMotionData_C.1025001_10251_SixDirGroundMotionData_C",
+                    "SubPathString": ""
+                  }
+                ],
+                "AeroLocomotionAnimData": [],
+                "HitReactAnimData": [
+                  {
+                    "AssetPathName": "/Game/Marvel/Characters/1025/1025001/AnimationDataAssets/1025001_10251_HitAnimData.1025001_10251_HitAnimData",
+                    "SubPathString": ""
+                  }
+                ],
+                "AimOffsetAnimData": [
+                  {
+                    "AssetPathName": "/Game/Marvel/Characters/1025/1025001/AnimationDataAssets/1025001_10251_AimOffsetAnimData.1025001_10251_AimOffsetAnimData",
+                    "SubPathString": ""
+                  }
+                ],
+                "HeroStateAnimData": [
+                  {
+                    "AssetPathName": "/Game/Marvel/Characters/1025/1025301/AnimationDataAssets/1025301_10251_HeroStateAnimData.1025301_10251_HeroStateAnimData",
                     "SubPathString": ""
                   }
                 ],
@@ -6590,6 +6717,62 @@
             }
           },
           {
+            "SkinItemID": "1033501",
+            "SkinID": 501,
+            "SkinName": "赏金猎人",
+            "ResTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1033/1033001/1033001_AbilityResTable.1033001_AbilityResTable",
+              "SubPathString": ""
+            },
+            "EmotesResTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1033/1033001/1033001_EmoteResTable.1033001_EmoteResTable",
+              "SubPathString": ""
+            },
+            "SoundTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1033/1033501/1033501_SoundTable.1033501_SoundTable",
+              "SubPathString": ""
+            },
+            "VoiceTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1033/1033001/1033001_HeroVoice.1033001_HeroVoice",
+              "SubPathString": ""
+            },
+            "AeroSound": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SculptSpecs": [
+              {
+                "TypeTag": {
+                  "TagName": "None"
+                },
+                "ChildActor": {
+                  "AssetPathName": "/Game/Marvel/Characters/1033/1033501/1033501_ChildBP.1033501_ChildBP_C",
+                  "SubPathString": ""
+                },
+                "VoiceItem": {
+                  "AssetPathName": "/Game/Marvel/Characters/1033/1033001/1033001_VoiceItem.1033001_VoiceItem",
+                  "SubPathString": ""
+                },
+                "GroundMotionAnimData": [],
+                "AeroLocomotionAnimData": [],
+                "HitReactAnimData": [],
+                "AimOffsetAnimData": [],
+                "HeroStateAnimData": [],
+                "CustomNamedAnimData": [],
+                "SculptSoulAnimData": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                }
+              }
+            ],
+            "bCookSkinCue": true,
+            "Quality": "EItemQuality::WHITE",
+            "NiagaraColorCollectionInstance": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          },
+          {
             "SkinItemID": "1033300",
             "SkinID": 300,
             "SkinName": "鼓韵风华",
@@ -7234,6 +7417,62 @@
             "Quality": "EItemQuality::WHITE",
             "NiagaraColorCollectionInstance": {
               "AssetPathName": "/Game/Marvel/VFX/Particles/NiagaraParameterCollection/1035/NPCI_1035100.NPCI_1035100",
+              "SubPathString": ""
+            }
+          },
+          {
+            "SkinItemID": "1035500",
+            "SkinID": 500,
+            "SkinName": "毒液特工",
+            "ResTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1035/1035001/1035001_AbilityResTable.1035001_AbilityResTable",
+              "SubPathString": ""
+            },
+            "EmotesResTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1035/1035001/1035001_EmoteResTable.1035001_EmoteResTable",
+              "SubPathString": ""
+            },
+            "SoundTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1035/1035001/1035001_SoundTable.1035001_SoundTable",
+              "SubPathString": ""
+            },
+            "VoiceTable": {
+              "AssetPathName": "/Game/Marvel/Characters/1035/1035001/1035001_HeroVoice.1035001_HeroVoice",
+              "SubPathString": ""
+            },
+            "AeroSound": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SculptSpecs": [
+              {
+                "TypeTag": {
+                  "TagName": "None"
+                },
+                "ChildActor": {
+                  "AssetPathName": "/Game/Marvel/Characters/1035/1035500/1035500_ChildBP.1035500_ChildBP_C",
+                  "SubPathString": ""
+                },
+                "VoiceItem": {
+                  "AssetPathName": "/Game/Marvel/Characters/1035/1035001/1035001_VoiceItem.1035001_VoiceItem",
+                  "SubPathString": ""
+                },
+                "GroundMotionAnimData": [],
+                "AeroLocomotionAnimData": [],
+                "HitReactAnimData": [],
+                "AimOffsetAnimData": [],
+                "HeroStateAnimData": [],
+                "CustomNamedAnimData": [],
+                "SculptSoulAnimData": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                }
+              }
+            ],
+            "bCookSkinCue": true,
+            "Quality": "EItemQuality::WHITE",
+            "NiagaraColorCollectionInstance": {
+              "AssetPathName": "",
               "SubPathString": ""
             }
           },
@@ -11655,7 +11894,7 @@
           {
             "SkinItemID": "1046800",
             "SkinID": 800,
-            "SkinName": "亚当术士",
+            "SkinName": "银河护卫队3",
             "ResTable": {
               "AssetPathName": "/Game/Marvel/Characters/1046/1046001/1046001_AbilityResTable.1046001_AbilityResTable",
               "SubPathString": ""
@@ -11740,7 +11979,7 @@
           {
             "SkinItemID": "1046301",
             "SkinID": 301,
-            "SkinName": "亚当术士",
+            "SkinName": "驱魔教宗",
             "ResTable": {
               "AssetPathName": "/Game/Marvel/Characters/1046/1046001/1046001_AbilityResTable.1046001_AbilityResTable",
               "SubPathString": ""

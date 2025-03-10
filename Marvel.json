@@ -2820,7 +2820,7 @@
 			{
 				"FileVersion": 3,
 				"Version": 1,
-				"VersionName": "2.0.2",
+				"VersionName": "2.0.6",
 				"FriendlyName": "Intel® XeSS",
 				"Description": "Intel® Xe Super Sampling (XeSS) technology uses machine learning to deliver more performance with exceptional image quality.",
 				"Category": "Rendering",
@@ -2834,6 +2834,11 @@
 				"Modules": [
 					{
 						"Name": "XeSSCommon",
+						"Type": "Runtime",
+						"LoadingPhase": "EarliestPossible"
+					},
+					{
+						"Name": "XeSSSDK",
 						"Type": "Runtime",
 						"LoadingPhase": "EarliestPossible",
 						"PlatformAllowList": [
@@ -2860,6 +2865,38 @@
 						"Name": "XeSSCore",
 						"Type": "Runtime",
 						"LoadingPhase": "PostSplashScreen",
+						"PlatformAllowList": [
+							"Win64"
+						]
+					},
+					{
+						"Name": "XeSSD3D11RHI",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"PlatformAllowList": [
+							"Win64"
+						]
+					},
+					{
+						"Name": "XeSSD3D12RHI",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"PlatformAllowList": [
+							"Win64"
+						]
+					},
+					{
+						"Name": "XeSSVulkanRHI",
+						"Type": "Runtime",
+						"LoadingPhase": "PostEngineInit",
+						"PlatformAllowList": [
+							"Win64"
+						]
+					},
+					{
+						"Name": "XeSSVulkanRHISetup",
+						"Type": "Runtime",
+						"LoadingPhase": "PostConfigInit",
 						"PlatformAllowList": [
 							"Win64"
 						]
