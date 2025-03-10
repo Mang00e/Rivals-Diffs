@@ -1,0 +1,2994 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MarvelHeroTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MarvelHeroTable'",
+        "ObjectPath": "/Script/Marvel"
+      }
+    },
+    "Rows": {
+      "1011": {
+        "HeroID": 1011,
+        "HeroTag": {
+          "TagName": "Hero.ID.1011"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "班纳",
+        "EnName": "HulkBanner",
+        "SculptNames": [
+          "Banner",
+          "HeroHulk",
+          "MonsterHulk"
+        ],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 1000,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1011/1011_CharacterBP.1011_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1011/1011_Table/1011_AbilityTable.1011_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1011/1011_Table/1011_BuffSpecTable.1011_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1011/1011_Table/1011_EquipmentTable.1011_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1011/1011_Table/1011_FlyConfigTable.1011_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1011/1011_Table/1011_InstantAmmoTable.1011_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1011/1011_Table/1011_ProjectileAgentTable.1011_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1011/1011_Table/1011_ScopeAgentTable.1011_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1011/1011_Table/1011_SummonerAgentTable.1011_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1014": {
+        "HeroID": 1014,
+        "HeroTag": {
+          "TagName": "Hero.ID.1014"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "惩罚者",
+        "EnName": "Punisher",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 999,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1014/1014_CharacterBP.1014_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Ray",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1014/1014_Table/1014_AbilityTable.1014_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1014/1014_Table/1014_BuffSpecTable.1014_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1014/1014_Table/1014_EquipmentTable.1014_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1014/1014_Table/1014_FlyConfigTable.1014_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1014/1014_Table/1014_InstantAmmoTable.1014_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1014/1014_Table/1014_ProjectileAgentTable.1014_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1014/1014_Table/1014_ScopeAgentTable.1014_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1014/1014_Table/1014_SummonerAgentTable.1014_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1015": {
+        "HeroID": 1015,
+        "HeroTag": {
+          "TagName": "Hero.ID.1015"
+        },
+        "HeroSpecTags": [
+          "AI.type.Air"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "暴风女",
+        "EnName": "Storm",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 998,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.002"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 0,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1015/1015_CharacterBP.1015_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1015/1015_Table/1015_AbilityTable.1015_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1015/1015_Table/1015_BuffSpecTable.1015_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1015/1015_Table/1015_EquipmentTable.1015_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1015/1015_Table/1015_FlyConfigTable.1015_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1015/1015_Table/1015_InstantAmmoTable.1015_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1015/1015_Table/1015_ProjectileAgentTable.1015_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1015/1015_Table/1015_ScopeAgentTable.1015_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1015/1015_Table/1015_SummonerAgentTable.1015_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1016": {
+        "HeroID": 1016,
+        "HeroTag": {
+          "TagName": "Hero.ID.1016"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "洛基",
+        "EnName": "Loki",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 997,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1016/1016_CharacterBP.1016_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1016/1016_Table/1016_AbilityTable.1016_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1016/1016_Table/1016_BuffSpecTable.1016_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1016/1016_Table/1016_EquipmentTable.1016_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1016/1016_Table/1016_FlyConfigTable.1016_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1016/1016_Table/1016_InstantAmmoTable.1016_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1016/1016_Table/1016_ProjectileAgentTable.1016_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1016/1016_Table/1016_ScopeAgentTable.1016_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1016/1016_Table/1016_SummonerAgentTable.1016_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1017": {
+        "HeroID": 1017,
+        "HeroTag": {
+          "TagName": "Hero.ID.1017"
+        },
+        "HeroSpecTags": [
+          "AI.type.Air"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "霹雳火",
+        "EnName": "HumanTorch",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 964,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.002"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1017/1017_CharacterBP.1017_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1017/1017_Table/1017_AbilityTable.1017_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1017/1017_Table/1017_BuffSpecTable.1017_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1017/1017_Table/1017_EquipmentTable.1017_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1017/1017_Table/1017_FlyConfigTable.1017_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1017/1017_Table/1017_InstantAmmoTable.1017_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1017/1017_Table/1017_ProjectileAgentTable.1017_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1017/1017_Table/1017_ScopeAgentTable.1017_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1017/1017_Table/1017_SummonerAgentTable.1017_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1018": {
+        "HeroID": 1018,
+        "HeroTag": {
+          "TagName": "Hero.ID.1018"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "奇异博士",
+        "EnName": "DoctorStrange",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 996,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.002"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1018/1018_CharacterBP.1018_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1018/1018_Table/1018_AbilityTable.1018_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1018/1018_Table/1018_BuffSpecTable.1018_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1018/1018_Table/1018_EquipmentTable.1018_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1018/1018_Table/1018_FlyConfigTable.1018_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1018/1018_Table/1018_InstantAmmoTable.1018_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1018/1018_Table/1018_ProjectileAgentTable.1018_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1018/1018_Table/1018_ScopeAgentTable.1018_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1018/1018_Table/1018_SummonerAgentTable.1018_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1020": {
+        "HeroID": 1020,
+        "HeroTag": {
+          "TagName": "Hero.ID.1020"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "曼蒂斯",
+        "EnName": "Mantis",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 995,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1020/1020_CharacterBP.1020_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1020/1020_Table/1020_AbilityTable.1020_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1020/1020_Table/1020_BuffSpecTable.1020_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1020/1020_Table/1020_EquipmentTable.1020_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1020/1020_Table/1020_FlyConfigTable.1020_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1020/1020_Table/1020_InstantAmmoTable.1020_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1020/1020_Table/1020_ProjectileAgentTable.1020_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1020/1020_Table/1020_ScopeAgentTable.1020_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1020/1020_Table/1020_SummonerAgentTable.1020_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1021": {
+        "HeroID": 1021,
+        "HeroTag": {
+          "TagName": "Hero.ID.1021"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "鹰眼",
+        "EnName": "Hawkeye",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 994,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1021/1021_CharacterBP.1021_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1021/1021_Table/1021_AbilityTable.1021_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1021/1021_Table/1021_BuffSpecTable.1021_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1021/1021_Table/1021_EquipmentTable.1021_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1021/1021_Table/1021_FlyConfigTable.1021_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1021/1021_Table/1021_InstantAmmoTable.1021_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1021/1021_Table/1021_ProjectileAgentTable.1021_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1021/1021_Table/1021_ScopeAgentTable.1021_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1021/1021_Table/1021_SummonerAgentTable.1021_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1022": {
+        "HeroID": 1022,
+        "HeroTag": {
+          "TagName": "Hero.ID.1022"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "美国队长",
+        "EnName": "CaptainAmerica",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 993,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1022/1022_CharacterBP.1022_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1022/1022_Table/1022_AbilityTable.1022_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1022/1022_Table/1022_BuffSpecTable.1022_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1022/1022_Table/1022_EquipmentTable.1022_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1022/1022_Table/1022_FlyConfigTable.1022_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1022/1022_Table/1022_InstantAmmoTable.1022_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1022/1022_Table/1022_ProjectileAgentTable.1022_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1022/1022_Table/1022_ScopeAgentTable.1022_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1022/1022_Table/1022_SummonerAgentTable.1022_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1023": {
+        "HeroID": 1023,
+        "HeroTag": {
+          "TagName": "Hero.ID.1023"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "火箭浣熊",
+        "EnName": "RocketRaccoon",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 992,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 0,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1023/1023_CharacterBP.1023_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1023/1023_Table/1023_AbilityTable.1023_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1023/1023_Table/1023_BuffSpecTable.1023_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1023/1023_Table/1023_EquipmentTable.1023_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1023/1023_Table/1023_FlyConfigTable.1023_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1023/1023_Table/1023_InstantAmmoTable.1023_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1023/1023_Table/1023_ProjectileAgentTable.1023_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1023/1023_Table/1023_ScopeAgentTable.1023_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1023/1023_Table/1023_SummonerAgentTable.1023_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1024": {
+        "HeroID": 1024,
+        "HeroTag": {
+          "TagName": "Hero.ID.1024"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "海拉",
+        "EnName": "Hela",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 991,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1024/1024_CharacterBP.1024_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Ray",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1024/1024_Table/1024_AbilityTable.1024_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1024/1024_Table/1024_BuffSpecTable.1024_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1024/1024_Table/1024_EquipmentTable.1024_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1024/1024_Table/1024_FlyConfigTable.1024_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1024/1024_Table/1024_InstantAmmoTable.1024_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1024/1024_Table/1024_ProjectileAgentTable.1024_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1024/1024_Table/1024_ScopeAgentTable.1024_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1024/1024_Table/1024_SummonerAgentTable.1024_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1025": {
+        "HeroID": 1025,
+        "HeroTag": {
+          "TagName": "Hero.ID.1025"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "斗篷与匕首",
+        "EnName": "Dagger",
+        "SculptNames": [
+          "Dagger",
+          "Cloak"
+        ],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 990,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1025/1025_CharacterBP.1025_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1025/1025_Table/1025_AbilityTable.1025_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1025/1025_Table/1025_BuffSpecTable.1025_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1025/1025_Table/1025_EquipmentTable.1025_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1025/1025_Table/1025_FlyConfigTable.1025_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1025/1025_Table/1025_InstantAmmoTable.1025_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1025/1025_Table/1025_ProjectileAgentTable.1025_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1025/1025_Table/1025_ScopeAgentTable.1025_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1025/1025_Table/1025_SummonerAgentTable.1025_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1026": {
+        "HeroID": 1026,
+        "HeroTag": {
+          "TagName": "Hero.ID.1026"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "黑豹",
+        "EnName": "BlackPanther",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 989,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1026/1026_CharacterBP.1026_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1026/1026_Table/1026_AbilityTable.1026_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1026/1026_Table/1026_BuffSpecTable.1026_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1026/1026_Table/1026_EquipmentTable.1026_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1026/1026_Table/1026_FlyConfigTable.1026_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1026/1026_Table/1026_InstantAmmoTable.1026_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1026/1026_Table/1026_ProjectileAgentTable.1026_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1026/1026_Table/1026_ScopeAgentTable.1026_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1026/1026_Table/1026_SummonerAgentTable.1026_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1027": {
+        "HeroID": 1027,
+        "HeroTag": {
+          "TagName": "Hero.ID.1027"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "格鲁特",
+        "EnName": "Groot",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 988,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1027/1027_CharacterBP.1027_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1027/1027_Table/1027_AbilityTable.1027_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1027/1027_Table/1027_BuffSpecTable.1027_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1027/1027_Table/1027_EquipmentTable.1027_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1027/1027_Table/1027_FlyConfigTable.1027_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1027/1027_Table/1027_InstantAmmoTable.1027_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1027/1027_Table/1027_ProjectileAgentTable.1027_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1027/1027_Table/1027_ScopeAgentTable.1027_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1027/1027_Table/1027_SummonerAgentTable.1027_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1029": {
+        "HeroID": 1029,
+        "HeroTag": {
+          "TagName": "Hero.ID.1029"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "魔剑客",
+        "EnName": "Magik",
+        "SculptNames": [
+          "Magik",
+          "Darkchylde"
+        ],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 987,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1029/1029_CharacterBP.1029_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1029/1029_Table/1029_AbilityTable.1029_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1029/1029_Table/1029_BuffSpecTable.1029_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1029/1029_Table/1029_EquipmentTable.1029_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1029/1029_Table/1029_FlyConfigTable.1029_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1029/1029_Table/1029_InstantAmmoTable.1029_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1029/1029_Table/1029_ProjectileAgentTable.1029_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1029/1029_Table/1029_ScopeAgentTable.1029_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1029/1029_Table/1029_SummonerAgentTable.1029_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1030": {
+        "HeroID": 1030,
+        "HeroTag": {
+          "TagName": "Hero.ID.1030"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "月光骑士",
+        "EnName": "MoonKnight",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 986,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1030/1030_CharacterBP.1030_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1030/1030_Table/1030_AbilityTable.1030_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1030/1030_Table/1030_BuffSpecTable.1030_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1030/1030_Table/1030_EquipmentTable.1030_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1030/1030_Table/1030_FlyConfigTable.1030_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1030/1030_Table/1030_InstantAmmoTable.1030_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1030/1030_Table/1030_ProjectileAgentTable.1030_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1030/1030_Table/1030_ScopeAgentTable.1030_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1030/1030_Table/1030_SummonerAgentTable.1030_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1031": {
+        "HeroID": 1031,
+        "HeroTag": {
+          "TagName": "Hero.ID.1031"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "冰月花雪",
+        "EnName": "LunaSnow",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 985,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1031/1031_CharacterBP.1031_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Ray",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1031/1031_Table/1031_AbilityTable.1031_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1031/1031_Table/1031_BuffSpecTable.1031_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1031/1031_Table/1031_EquipmentTable.1031_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1031/1031_Table/1031_FlyConfigTable.1031_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1031/1031_Table/1031_InstantAmmoTable.1031_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1031/1031_Table/1031_ProjectileAgentTable.1031_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1031/1031_Table/1031_ScopeAgentTable.1031_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1031/1031_Table/1031_SummonerAgentTable.1031_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1032": {
+        "HeroID": 1032,
+        "HeroTag": {
+          "TagName": "Hero.ID.1032"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "松鼠女",
+        "EnName": "SquirrelGirl",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 984,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1032/1032_CharacterBP.1032_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1032/1032_Table/1032_AbilityTable.1032_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1032/1032_Table/1032_BuffSpecTable.1032_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1032/1032_Table/1032_EquipmentTable.1032_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1032/1032_Table/1032_FlyConfigTable.1032_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1032/1032_Table/1032_InstantAmmoTable.1032_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1032/1032_Table/1032_ProjectileAgentTable.1032_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1032/1032_Table/1032_ScopeAgentTable.1032_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1032/1032_Table/1032_SummonerAgentTable.1032_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1033": {
+        "HeroID": 1033,
+        "HeroTag": {
+          "TagName": "Hero.ID.1033"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "黑寡妇",
+        "EnName": "BlackWidow",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 983,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1033/1033_CharacterBP.1033_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Ray",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1033/1033_Table/1033_AbilityTable.1033_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1033/1033_Table/1033_BuffSpecTable.1033_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1033/1033_Table/1033_EquipmentTable.1033_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1033/1033_Table/1033_FlyConfigTable.1033_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1033/1033_Table/1033_InstantAmmoTable.1033_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1033/1033_Table/1033_ProjectileAgentTable.1033_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1033/1033_Table/1033_ScopeAgentTable.1033_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1033/1033_Table/1033_SummonerAgentTable.1033_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1034": {
+        "HeroID": 1034,
+        "HeroTag": {
+          "TagName": "Hero.ID.1034"
+        },
+        "HeroSpecTags": [
+          "AI.type.Air"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "钢铁侠",
+        "EnName": "IronMan",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 982,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 0,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1034/1034_CharacterBP.1034_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1034/1034_Table/1034_AbilityTable.1034_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1034/1034_Table/1034_BuffSpecTable.1034_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1034/1034_Table/1034_EquipmentTable.1034_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1034/1034_Table/1034_FlyConfigTable.1034_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1034/1034_Table/1034_InstantAmmoTable.1034_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1034/1034_Table/1034_ProjectileAgentTable.1034_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1034/1034_Table/1034_ScopeAgentTable.1034_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1034/1034_Table/1034_SummonerAgentTable.1034_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1035": {
+        "HeroID": 1035,
+        "HeroTag": {
+          "TagName": "Hero.ID.1035"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "毒液",
+        "EnName": "Venom",
+        "SculptNames": [],
+        "HeroDesc": "致命守护者",
+        "bUsable": true,
+        "SortingParam": 981,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1035/1035_CharacterBP.1035_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1035/1035_Table/1035_AbilityTable.1035_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1035/1035_Table/1035_BuffSpecTable.1035_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1035/1035_Table/1035_EquipmentTable.1035_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1035/1035_Table/1035_FlyConfigTable.1035_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1035/1035_Table/1035_InstantAmmoTable.1035_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1035/1035_Table/1035_ProjectileAgentTable.1035_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1035/1035_Table/1035_ScopeAgentTable.1035_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1035/1035_Table/1035_SummonerAgentTable.1035_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1036": {
+        "HeroID": 1036,
+        "HeroTag": {
+          "TagName": "Hero.ID.1036"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "蜘蛛侠",
+        "EnName": "SpiderMan",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 980,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1036/1036_CharacterBP.1036_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1036/1036_Table/1036_AbilityTable.1036_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1036/1036_Table/1036_BuffSpecTable.1036_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1036/1036_Table/1036_EquipmentTable.1036_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1036/1036_Table/1036_FlyConfigTable.1036_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1036/1036_Table/1036_InstantAmmoTable.1036_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1036/1036_Table/1036_ProjectileAgentTable.1036_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1036/1036_Table/1036_ScopeAgentTable.1036_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1036/1036_Table/1036_SummonerAgentTable.1036_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1037": {
+        "HeroID": 1037,
+        "HeroTag": {
+          "TagName": "Hero.ID.1037"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "万磁王",
+        "EnName": "Magneto",
+        "SculptNames": [],
+        "HeroDesc": "磁力掌控者",
+        "bUsable": true,
+        "SortingParam": 979,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1037/1037_CharacterBP.1037_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1037/1037_Table/1037_AbilityTable.1037_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1037/1037_Table/1037_BuffSpecTable.1037_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1037/1037_Table/1037_EquipmentTable.1037_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1037/1037_Table/1037_FlyConfigTable.1037_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1037/1037_Table/1037_InstantAmmoTable.1037_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1037/1037_Table/1037_ProjectileAgentTable.1037_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1037/1037_Table/1037_ScopeAgentTable.1037_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1037/1037_Table/1037_SummonerAgentTable.1037_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1038": {
+        "HeroID": 1038,
+        "HeroTag": {
+          "TagName": "Hero.ID.1038"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "猩红女巫",
+        "EnName": "ScarletWitch",
+        "SculptNames": [],
+        "HeroDesc": "红的",
+        "bUsable": true,
+        "SortingParam": 978,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1038/1038_CharacterBP.1038_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1038/1038_Table/1038_AbilityTable.1038_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1038/1038_Table/1038_BuffSpecTable.1038_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1038/1038_Table/1038_EquipmentTable.1038_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1038/1038_Table/1038_FlyConfigTable.1038_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1038/1038_Table/1038_InstantAmmoTable.1038_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1038/1038_Table/1038_ProjectileAgentTable.1038_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1038/1038_Table/1038_ScopeAgentTable.1038_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1038/1038_Table/1038_SummonerAgentTable.1038_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1039": {
+        "HeroID": 1039,
+        "HeroTag": {
+          "TagName": "Hero.ID.1039"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "索尔",
+        "EnName": "Thor",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 977,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1039/1039_CharacterBP.1039_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1039/1039_Table/1039_AbilityTable.1039_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1039/1039_Table/1039_BuffSpecTable.1039_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1039/1039_Table/1039_EquipmentTable.1039_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1039/1039_Table/1039_FlyConfigTable.1039_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1039/1039_Table/1039_InstantAmmoTable.1039_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1039/1039_Table/1039_ProjectileAgentTable.1039_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1039/1039_Table/1039_ScopeAgentTable.1039_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1039/1039_Table/1039_SummonerAgentTable.1039_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1040": {
+        "HeroID": 1040,
+        "HeroTag": {
+          "TagName": "Hero.ID.1040"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "神奇先生",
+        "EnName": "MisterFantastic",
+        "SculptNames": [
+          "MisterFantastic",
+          "Expand",
+          "Elastic",
+          "Wall"
+        ],
+        "HeroDesc": "猛男",
+        "bUsable": true,
+        "SortingParam": 966,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1040/1040_CharacterBP.1040_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1040/1040_Table/1040_AbilityTable.1040_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1040/1040_Table/1040_BuffSpecTable.1040_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1040/1040_Table/1040_EquipmentTable.1040_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1040/1040_Table/1040_FlyConfigTable.1040_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1040/1040_Table/1040_InstantAmmoTable.1040_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1040/1040_Table/1040_ProjectileAgentTable.1040_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1040/1040_Table/1040_ScopeAgentTable.1040_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1040/1040_Table/1040_SummonerAgentTable.1040_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1041": {
+        "HeroID": 1041,
+        "HeroTag": {
+          "TagName": "Hero.ID.1041"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "冬兵",
+        "EnName": "WinterSoldier",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 976,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1041/1041_CharacterBP.1041_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1041/1041_Table/1041_AbilityTable.1041_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1041/1041_Table/1041_BuffSpecTable.1041_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1041/1041_Table/1041_EquipmentTable.1041_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1041/1041_Table/1041_FlyConfigTable.1041_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1041/1041_Table/1041_InstantAmmoTable.1041_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1041/1041_Table/1041_ProjectileAgentTable.1041_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1041/1041_Table/1041_ScopeAgentTable.1041_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1041/1041_Table/1041_SummonerAgentTable.1041_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1042": {
+        "HeroID": 1042,
+        "HeroTag": {
+          "TagName": "Hero.ID.1042"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "潘妮·帕克",
+        "EnName": "PeniParker",
+        "SculptNames": [],
+        "HeroDesc": "少女与机甲",
+        "bUsable": true,
+        "SortingParam": 975,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1042/1042_CharacterBP.1042_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1042/1042_Table/1042_AbilityTable.1042_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1042/1042_Table/1042_BuffSpecTable.1042_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1042/1042_Table/1042_EquipmentTable.1042_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1042/1042_Table/1042_FlyConfigTable.1042_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1042/1042_Table/1042_InstantAmmoTable.1042_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1042/1042_Table/1042_ProjectileAgentTable.1042_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1042/1042_Table/1042_ScopeAgentTable.1042_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1042/1042_Table/1042_SummonerAgentTable.1042_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1043": {
+        "HeroID": 1043,
+        "HeroTag": {
+          "TagName": "Hero.ID.1043"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "星爵",
+        "EnName": "Starlord",
+        "SculptNames": [],
+        "HeroDesc": "逗比",
+        "bUsable": true,
+        "SortingParam": 974,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1043/1043_CharacterBP.1043_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 3,
+        "AttackMethod": "EAttackMethod::Ray",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1043/1043_Table/1043_AbilityTable.1043_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1043/1043_Table/1043_BuffSpecTable.1043_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1043/1043_Table/1043_EquipmentTable.1043_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1043/1043_Table/1043_FlyConfigTable.1043_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1043/1043_Table/1043_InstantAmmoTable.1043_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1043/1043_Table/1043_ProjectileAgentTable.1043_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1043/1043_Table/1043_ScopeAgentTable.1043_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1043/1043_Table/1043_SummonerAgentTable.1043_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1045": {
+        "HeroID": 1045,
+        "HeroTag": {
+          "TagName": "Hero.ID.1045"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "纳摩",
+        "EnName": "Namor",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 973,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1045/1045_CharacterBP.1045_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1045/1045_Table/1045_AbilityTable.1045_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1045/1045_Table/1045_BuffSpecTable.1045_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1045/1045_Table/1045_EquipmentTable.1045_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1045/1045_Table/1045_FlyConfigTable.1045_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1045/1045_Table/1045_InstantAmmoTable.1045_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1045/1045_Table/1045_ProjectileAgentTable.1045_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1045/1045_Table/1045_ScopeAgentTable.1045_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1045/1045_Table/1045_SummonerAgentTable.1045_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1046": {
+        "HeroID": 1046,
+        "HeroTag": {
+          "TagName": "Hero.ID.1046"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "亚当术士",
+        "EnName": "AdamWarlock",
+        "SculptNames": [],
+        "HeroDesc": "强大的能量操纵者",
+        "bUsable": true,
+        "SortingParam": 972,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1046/1046_CharacterBP.1046_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Ray",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1046/1046_Table/1046_AbilityTable.1046_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1046/1046_Table/1046_BuffSpecTable.1046_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1046/1046_Table/1046_EquipmentTable.1046_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1046/1046_Table/1046_FlyConfigTable.1046_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1046/1046_Table/1046_InstantAmmoTable.1046_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1046/1046_Table/1046_ProjectileAgentTable.1046_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1046/1046_Table/1046_ScopeAgentTable.1046_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1046/1046_Table/1046_SummonerAgentTable.1046_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1047": {
+        "HeroID": 1047,
+        "HeroTag": {
+          "TagName": "Hero.ID.1047"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "杰夫",
+        "EnName": "Jeff",
+        "SculptNames": [],
+        "HeroDesc": "鲨鲨",
+        "bUsable": true,
+        "SortingParam": 971,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1047/1047_CharacterBP.1047_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1047/1047_Table/1047_AbilityTable.1047_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1047/1047_Table/1047_BuffSpecTable.1047_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1047/1047_Table/1047_EquipmentTable.1047_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1047/1047_Table/1047_FlyConfigTable.1047_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1047/1047_Table/1047_InstantAmmoTable.1047_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1047/1047_Table/1047_ProjectileAgentTable.1047_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1047/1047_Table/1047_ScopeAgentTable.1047_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1047/1047_Table/1047_SummonerAgentTable.1047_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1048": {
+        "HeroID": 1048,
+        "HeroTag": {
+          "TagName": "Hero.ID.1048"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "灵蝶",
+        "EnName": "Psylocke",
+        "SculptNames": [],
+        "HeroDesc": "灵能刺客",
+        "bUsable": true,
+        "SortingParam": 970,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1048/1048_CharacterBP.1048_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Ray",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1048/1048_Table/1048_AbilityTable.1048_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1048/1048_Table/1048_BuffSpecTable.1048_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1048/1048_Table/1048_EquipmentTable.1048_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1048/1048_Table/1048_FlyConfigTable.1048_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1048/1048_Table/1048_InstantAmmoTable.1048_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1048/1048_Table/1048_ProjectileAgentTable.1048_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1048/1048_Table/1048_ScopeAgentTable.1048_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1048/1048_Table/1048_SummonerAgentTable.1048_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1049": {
+        "HeroID": 1049,
+        "HeroTag": {
+          "TagName": "Hero.ID.1049"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "金刚狼",
+        "EnName": "Wolverine",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 969,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1049/1049_CharacterBP.1049_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1049/1049_Table/1049_AbilityTable.1049_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1049/1049_Table/1049_BuffSpecTable.1049_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1049/1049_Table/1049_InstantAmmoTable.1049_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1049/1049_Table/1049_ProjectileAgentTable.1049_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1049/1049_Table/1049_ScopeAgentTable.1049_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1049/1049_Table/1049_SummonerAgentTable.1049_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1050": {
+        "HeroID": 1050,
+        "HeroTag": {
+          "TagName": "Hero.ID.1050"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "隐形女",
+        "EnName": "InvisibleWoman",
+        "SculptNames": [],
+        "HeroDesc": "力场制造和操控者",
+        "bUsable": true,
+        "SortingParam": 967,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1050/1050_CharacterBP.1050_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1050/1050_Table/1050_AbilityTable.1050_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1050/1050_Table/1050_BuffSpecTable.1050_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1050/1050_Table/1050_EquipmentTable.1050_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1050/1050_Table/1050_FlyConfigTable.1050_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1050/1050_Table/1050_InstantAmmoTable.1050_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1050/1050_Table/1050_ProjectileAgentTable.1050_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1050/1050_Table/1050_ScopeAgentTable.1050_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1050/1050_Table/1050_SummonerAgentTable.1050_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1051": {
+        "HeroID": 1051,
+        "HeroTag": {
+          "TagName": "Hero.ID.1051"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "石头人",
+        "EnName": "BenjaminGrim",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": true,
+        "SortingParam": 965,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1051/1051_CharacterBP.1051_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1051/1051_Table/1051_AbilityTable.1051_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1051/1051_Table/1051_BuffSpecTable.1051_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1051/1051_Table/1051_EquipmentTable.1051_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1051/1051_Table/1051_InstantAmmoTable.1051_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1051/1051_Table/1051_ProjectileAgentTable.1051_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1051/1051_Table/1051_ScopeAgentTable.1051_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1051/1051_Table/1051_SummonerAgentTable.1051_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1052": {
+        "HeroID": 1052,
+        "HeroTag": {
+          "TagName": "Hero.ID.1052"
+        },
+        "HeroSpecTags": [
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "林烈",
+        "EnName": "LinLie",
+        "SculptNames": [],
+        "HeroDesc": "铁拳",
+        "bUsable": true,
+        "SortingParam": 968,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/1052/1052_CharacterBP.1052_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Melee",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1052/1052_Table/1052_AbilityTable.1052_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1052/1052_Table/1052_BuffSpecTable.1052_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1052/1052_Table/1052_EquipmentTable.1052_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1052/1052_Table/1052_FlyConfigTable.1052_FlyConfigTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1052/1052_Table/1052_InstantAmmoTable.1052_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1052/1052_Table/1052_ProjectileAgentTable.1052_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1052/1052_Table/1052_ScopeAgentTable.1052_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/1052/1052_Table/1052_SummonerAgentTable.1052_SummonerAgentTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "4016": {
+        "HeroID": 4016,
+        "HeroTag": {
+          "TagName": "Hero.ID.4016"
+        },
+        "HeroSpecTags": [
+          "AI.type.NPC",
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "伽娜塔机器人",
+        "EnName": "GalactaBot",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 9999,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/4016/4016_CharacterBP.4016_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4016/4016_Table/4016_AbilityTable.4016_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4016/4016_Table/4016_BuffSpecTable.4016_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4016/4016_Table/4016_ScopeAgentTable.4016_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4016/4016_Table/4016_SummonerAgentTable.4016_SummonerAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4016/4016_Table/4016_ProjectileAgentTable.4016_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4016/4016_Table/4016_EquipmentTable.4016_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4016/4016_Table/4016_InstantAmmoTable.4016_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4016/4016_Table/4016_FlyConfigTable.4016_FlyConfigTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "4017": {
+        "HeroID": 4017,
+        "HeroTag": {
+          "TagName": "Hero.ID.4017"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "大厅NPC-伽娜塔",
+        "EnName": "Galacta",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_AbilityTable.4018_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_BuffSpecTable.4018_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_ScopeAgentTable.4018_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_SummonerAgentTable.4018_SummonerAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_ProjectileAgentTable.4018_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_EquipmentTable.4018_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_InstantAmmoTable.4018_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_FlyConfigTable.4018_FlyConfigTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "4018": {
+        "HeroID": 4018,
+        "HeroTag": {
+          "TagName": "Hero.ID.4018"
+        },
+        "HeroSpecTags": [
+          "AI.type.NPC",
+          "AI.Type.Ground"
+        ],
+        "PrimaryHeroId": 0,
+        "TName": "大型伽娜塔机器人",
+        "EnName": "GalactaBotPlus",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/4018/4018_CharacterBP.4018_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_AbilityTable.4018_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_BuffSpecTable.4018_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_ScopeAgentTable.4018_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_SummonerAgentTable.4018_SummonerAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_ProjectileAgentTable.4018_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_EquipmentTable.4018_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_InstantAmmoTable.4018_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/4018/4018_Table/4018_FlyConfigTable.4018_FlyConfigTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "9999": {
+        "HeroID": 9999,
+        "HeroTag": {
+          "TagName": "Hero.Id.9999"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "英雄零",
+        "EnName": "HeroZero",
+        "SculptNames": [],
+        "HeroDesc": "测试文本测试文本",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "/Game/Marvel/Characters/9999/9999_CharacterBP.9999_CharacterBP_C",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/9999/9999_Table/9999_AbilityTable.9999_AbilityTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/9999/9999_Table/9999_BuffSpecTable.9999_BuffSpecTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/9999/9999_Table/9999_ScopeAgentTable.9999_ScopeAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/9999/9999_Table/9999_SummonerAgentTable.9999_SummonerAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/9999/9999_Table/9999_ProjectileAgentTable.9999_ProjectileAgentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/9999/9999_Table/9999_EquipmentTable.9999_EquipmentTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/9999/9999_Table/9999_InstantAmmoTable.9999_InstantAmmoTable",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Marvel/AbilitySystem/9999/9999_Table/9999_FlyConfigTable.9999_FlyConfigTable",
+            "SubPathString": ""
+          }
+        ],
+        "Delivery": true
+      },
+      "1057": {
+        "HeroID": 1057,
+        "HeroTag": {
+          "TagName": "None"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "X教授",
+        "EnName": "ProfessorX",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [],
+        "Delivery": true
+      },
+      "1058": {
+        "HeroID": 1058,
+        "HeroTag": {
+          "TagName": "None"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "贾静",
+        "EnName": "JiaJing",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [],
+        "Delivery": true
+      },
+      "1059": {
+        "HeroID": 1059,
+        "HeroTag": {
+          "TagName": "None"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "陷阱",
+        "EnName": "PastePotPete",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [],
+        "Delivery": true
+      },
+      "1060": {
+        "HeroID": 1060,
+        "HeroTag": {
+          "TagName": "None"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "钢力士",
+        "EnName": "Colossus",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Tank",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [],
+        "Delivery": true
+      },
+      "1061": {
+        "HeroID": 1061,
+        "HeroTag": {
+          "TagName": "None"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "轨迹",
+        "EnName": "Locus",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [],
+        "Delivery": true
+      },
+      "1062": {
+        "HeroID": 1062,
+        "HeroTag": {
+          "TagName": "None"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "野兽",
+        "EnName": "Beast",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Unknown",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeHuge",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [],
+        "Delivery": true
+      },
+      "1063": {
+        "HeroID": 1063,
+        "HeroTag": {
+          "TagName": "None"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "夜行者",
+        "EnName": "Nightcrawler",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [],
+        "Delivery": true
+      },
+      "1064": {
+        "HeroID": 1064,
+        "HeroTag": {
+          "TagName": "None"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "李千欢",
+        "EnName": "Jubilee",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Unknown",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [],
+        "Delivery": true
+      },
+      "1065": {
+        "HeroID": 1065,
+        "HeroTag": {
+          "TagName": "None"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "罗刹女",
+        "EnName": "Rogue",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Female",
+        "Role": "EHeroRole::Support",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeSmall",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [],
+        "Delivery": true
+      },
+      "1066": {
+        "HeroID": 1066,
+        "HeroTag": {
+          "TagName": "None"
+        },
+        "HeroSpecTags": [],
+        "PrimaryHeroId": 0,
+        "TName": "牌皇",
+        "EnName": "Gambit",
+        "SculptNames": [],
+        "HeroDesc": "",
+        "bUsable": false,
+        "SortingParam": 0,
+        "Gender": "EGender::Male",
+        "Role": "EHeroRole::Damage",
+        "HeroType": {
+          "TagName": "Hero.Type.001"
+        },
+        "MoveAbilityID": 101,
+        "JumpAbilityID": 102,
+        "CharacterClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodySize": "ECharacterBodySize::SizeMedium",
+        "ThreatValue": 0,
+        "AttackMethod": "EAttackMethod::Bullet",
+        "HeroModuleTable": [],
+        "Delivery": true
+      }
+    }
+  }
+]
